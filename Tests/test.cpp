@@ -16,6 +16,8 @@ TEST(MoneySuite, Five_Dollars_Are_Equal_To_Other_Five_Dollars)
 
 	ASSERT_TRUE(Euro(5) == Euro(5));
 	ASSERT_FALSE(Euro(5) == Euro(6));
+
+	ASSERT_NE(Dollar(15), Euro(15));
 }
 
 TEST(MoneySuite, An_Euro_Multiplied_By_Amount_Returns_Euro_Times_Amount)
