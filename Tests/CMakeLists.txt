@@ -17,7 +17,12 @@ add_executable(TDD_Course_Tests test.cpp ../maian.cpp
         ../src/Euro.cpp
         ../src/Euro.h
         ../src/Money.cpp
-        ../src/Money.h)
+        ../src/Money.h
+        trafficLightTests.cpp
+        ../src/TrafficLight.cpp
+        ../src/TrafficLight.h
+        ../src/TrafficLightTimer.cpp
+        ../src/TrafficLightTimer.h)
 target_link_libraries(TDD_Course_Tests gtest_main)
 # add_test(NAME example_test COMMAND example)
 set(CMAKE_CXX_STANDARD 26)

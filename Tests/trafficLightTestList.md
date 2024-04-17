@@ -1,0 +1,9 @@
+- [ ] turn in, turn of
+- [x] red, ambar, green
+- [x] change light color
+- [x] change to next light
+- [x] emergency mode (flashing ambar)
+- [ ] not emergencvy - not flashing
+- [ ] support from ambar to green
+- [ ] traffic light timer
+- [x] Cannot change light while in emergency mode
